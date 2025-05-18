@@ -1,5 +1,6 @@
 package com.ushan.patient_sevice.service;
 
+import com.ushan.patient_sevice.dto.PatientRequestDTO;
 import com.ushan.patient_sevice.dto.PatientResponseDTO;
 import com.ushan.patient_sevice.mapper.PatientMapper;
 import com.ushan.patient_sevice.model.Patient;
@@ -22,5 +23,11 @@ public class PatientService {
 
         return patients.stream()
                 .map(patient -> PatientMapper.toDTO(patient)).toList();
+    }
+
+    public PatientResponseDTO createPatient(PatientRequestDTO patientRequestDTO){
+        Patient newPatient = patientRepository.save(PatientMapper.toModel(patientRequestDTO));
+
+        return PatientMapper.toDTO(newPatient);
     }
 }
