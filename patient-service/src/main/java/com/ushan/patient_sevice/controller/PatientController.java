@@ -16,7 +16,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/patients") // http://localhost:4000/patients
-@Tag(name= "Patient", description = "API for managing Patients")
+@Tag(name = "Patient", description = "API for managing Patients")
 public class PatientController {
 
     private final PatientService patientService;
@@ -43,7 +43,7 @@ public class PatientController {
     @PutMapping("/{id}")
     @Operation(summary = "Update a new Patient")
     public ResponseEntity<PatientResponseDTO> updatePatient(@PathVariable UUID id,
-                                                            @Validated({Default.class}) @RequestBody PatientRequestDTO patientRequestDTO){
+                                                            @Validated({Default.class}) @RequestBody PatientRequestDTO patientRequestDTO) {
 
         PatientResponseDTO patientResponseDTO = patientService.updatePatient(id, patientRequestDTO);
         return ResponseEntity.ok().body(patientResponseDTO);
@@ -51,7 +51,7 @@ public class PatientController {
 
     @DeleteMapping("/{id}")
     @Operation(summary = "Delete a Patient")
-    public ResponseEntity<Void> deletePatient(@PathVariable UUID id){
+    public ResponseEntity<Void> deletePatient(@PathVariable UUID id) {
         patientService.deletePatient(id);
         return ResponseEntity.noContent().build();
     }

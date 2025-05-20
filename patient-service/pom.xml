@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ushan</groupId>
-    <artifactId>patient-sevice</artifactId>
+    <artifactId>patient-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>patient-sevice</name>
+    <name>patient-service</name>
     <description>This is the patient-service of patient-management</description>
     <url/>
     <licenses>
