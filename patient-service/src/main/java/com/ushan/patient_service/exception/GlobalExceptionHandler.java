@@ -1,4 +1,4 @@
-package com.ushan.patient_sevice.exception;
+package com.ushan.patient_service.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

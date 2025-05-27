@@ -1,13 +1,13 @@
-package com.ushan.patient_sevice;
+package com.ushan.patient_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PatientSeviceApplication {
+public class PatientServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PatientSeviceApplication.class, args);
+		SpringApplication.run(PatientServiceApplication.class, args);
 	}
 
 }

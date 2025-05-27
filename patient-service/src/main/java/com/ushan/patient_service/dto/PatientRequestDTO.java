@@ -1,6 +1,6 @@
-package com.ushan.patient_sevice.dto;
+package com.ushan.patient_service.dto;
 
-import com.ushan.patient_sevice.dto.validators.CreatePatientValidationGroup;
+import com.ushan.patient_service.dto.validators.CreatePatientValidationGroup;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

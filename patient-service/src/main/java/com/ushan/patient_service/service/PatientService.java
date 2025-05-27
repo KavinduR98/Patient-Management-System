@@ -1,12 +1,12 @@
-package com.ushan.patient_sevice.service;
+package com.ushan.patient_service.service;
 
-import com.ushan.patient_sevice.dto.PatientRequestDTO;
-import com.ushan.patient_sevice.dto.PatientResponseDTO;
-import com.ushan.patient_sevice.exception.EmailAlreadyExistsException;
-import com.ushan.patient_sevice.exception.PatientNotFoundException;
-import com.ushan.patient_sevice.mapper.PatientMapper;
-import com.ushan.patient_sevice.model.Patient;
-import com.ushan.patient_sevice.repository.PatientRepository;
+import com.ushan.patient_service.dto.PatientRequestDTO;
+import com.ushan.patient_service.dto.PatientResponseDTO;
+import com.ushan.patient_service.exception.EmailAlreadyExistsException;
+import com.ushan.patient_service.exception.PatientNotFoundException;
+import com.ushan.patient_service.mapper.PatientMapper;
+import com.ushan.patient_service.model.Patient;
+import com.ushan.patient_service.repository.PatientRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;

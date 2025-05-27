@@ -1,8 +1,8 @@
-package com.ushan.patient_sevice.mapper;
+package com.ushan.patient_service.mapper;
 
-import com.ushan.patient_sevice.dto.PatientRequestDTO;
-import com.ushan.patient_sevice.dto.PatientResponseDTO;
-import com.ushan.patient_sevice.model.Patient;
+import com.ushan.patient_service.dto.PatientRequestDTO;
+import com.ushan.patient_service.dto.PatientResponseDTO;
+import com.ushan.patient_service.model.Patient;
 
 import java.time.LocalDate;
 

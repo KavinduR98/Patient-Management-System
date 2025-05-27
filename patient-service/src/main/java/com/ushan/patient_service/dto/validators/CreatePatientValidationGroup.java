@@ -1,4 +1,4 @@
-package com.ushan.patient_sevice.dto.validators;
+package com.ushan.patient_service.dto.validators;
 
 public interface CreatePatientValidationGroup {
 }

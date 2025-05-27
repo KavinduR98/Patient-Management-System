@@ -1,4 +1,4 @@
-package com.ushan.patient_sevice.dto;
+package com.ushan.patient_service.dto;
 
 public class PatientResponseDTO {
     private String id;
