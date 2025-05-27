@@ -1,10 +1,10 @@
-package com.ushan.biling_service;
+package com.ushan.billing_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BilingServiceApplicationTests {
+class BillingServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
