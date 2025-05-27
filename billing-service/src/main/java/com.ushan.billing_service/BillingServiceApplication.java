@@ -1,13 +1,13 @@
-package com.ushan.biling_service;
+package com.ushan.billing_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BilingServiceApplication {
+public class BillingServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BilingServiceApplication.class, args);
+		SpringApplication.run(BillingServiceApplication.class, args);
 	}
 
 }
